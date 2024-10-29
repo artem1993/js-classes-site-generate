@@ -1,0 +1,17 @@
+#app {
+	display: flex;
+
+}
+
+.content {
+	padding: 0 15px;
+	width: 100%;
+}
+
+.sidebar {
+	flex: 0 0 200px;
+	z-index: 100;
+	padding: 10px;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+	overflow-y: auto;
+}
